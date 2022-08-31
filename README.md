@@ -36,3 +36,6 @@ Example Tear:
 
 ### Phasing Objects In
 - [Youtube Tutorial](https://www.youtube.com/watch?v=taMp1g1pBeE)
+
+### Connecting Multiple Users to a Scene
+- [Microsoft Tutorial on Connecting Multiple Users](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unity/tutorials/mr-learning-sharing-03)
