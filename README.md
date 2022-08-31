@@ -4,6 +4,11 @@
 
 Create a MR application that allows users to place 3D holograms of statues or other exhibits at a location, add exhibit information, and display them to the public as an interactive 3D experience. 
 
+Goals:
+1. Create an interface for users to be able to place 3D holograms of historic artifacts.
+2. Save the location and model of those artifacts via Cloud Spatial Anchors and a database
+3. Recall
+
 ## Use-Case Research
 
 - [AR Glass]()
