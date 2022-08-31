@@ -2,6 +2,15 @@
 
 ## Goals
 
+Create a MR application that allows users to place 3D holograms of statues or other exhibits at a location, add exhibit information, and display them to the public as an interactive 3D experience. 
+
+## Use-Case Research
+
+- [AR Glass]()
+   - [Monument Avenue Tour]()
+- Published Research:
+   - (TBA)
+
 ## Design
 
 ### Virtual Plaques/Podiums Inspired by Horizon Zero Dawn's "Vantage Points"
