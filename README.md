@@ -35,9 +35,20 @@ Example Tear:
 
 ### Spatial Anchors
 - [Introductory Video to Azure Spatial Anchors](https://docs.microsoft.com/en-us/shows/mixed-reality/intro-to-azure-mixed-reality-services-azure-spatial-anchors)
-- [Coding Instructions on Creating Local Spatial Anchors](https://docs.microsoft.com/en-us/azure/spatial-anchors/how-tos/create-locate-anchors-unity)
 - [Azure Spatial Anchors API](https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.spatialanchors?view=spatialanchors-dotnet)
 - [Microsoft's Documentation on Azure Spatial Anchors](https://docs.microsoft.com/en-us/azure/spatial-anchors/)
+
+#### Contradictory Coding Instructions/Methods
+- [Coding Instructions on Creating Spatial Anchors in Unity](https://docs.microsoft.com/en-us/azure/spatial-anchors/how-tos/create-locate-anchors-unity)
+   - Uses the CloudAnchorSession
+- [Microsoft Spatial Anchors using OpenXR sample](https://github.com/microsoft/OpenXR-Unity-MixedReality-Samples/blob/main/AzureSpatialAnchorsSample/Assets/Scripts/SpatialAnchorsSample.cs) [Current Coding Basis]
+   - Need to confirm that this one works in Unity
+   - Uses Spatial Anchor Manager
+   - Uses MRTK and OpenXR
+- [Quickstart Sample for Spatial Anchors in Unity](https://github.com/Azure/azure-spatial-anchors-samples/blob/master/Unity/Assets/AzureSpatialAnchors.Examples/Scripts/AzureSpatialAnchorsBasicDemoScript.cs)
+   - Can confirm that this one works in Unity
+   - Uses Spatial Anchor Manager
+   - Does not use MRTK
 
 ### Phasing Objects In
 - [Youtube Tutorial](https://www.youtube.com/watch?v=taMp1g1pBeE)
