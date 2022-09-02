@@ -38,6 +38,7 @@ Example Tear:
 - [Coding Instructions on Creating Local Spatial Anchors](https://docs.microsoft.com/en-us/azure/spatial-anchors/how-tos/create-locate-anchors-unity)
 - [Azure Spatial Anchors API](https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.spatialanchors?view=spatialanchors-dotnet)
 - [Microsoft's Documentation on Azure Spatial Anchors](https://docs.microsoft.com/en-us/azure/spatial-anchors/)
+- [Microsoft Spatial Anchors using OpenXR sample](https://github.com/microsoft/OpenXR-Unity-MixedReality-Samples/blob/main/AzureSpatialAnchorsSample/Assets/Scripts/SpatialAnchorsSample.cs)
 
 ### Phasing Objects In
 - [Youtube Tutorial](https://www.youtube.com/watch?v=taMp1g1pBeE)
