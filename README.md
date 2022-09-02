@@ -38,12 +38,17 @@ Example Tear:
 - [Azure Spatial Anchors API](https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.spatialanchors?view=spatialanchors-dotnet)
 - [Microsoft's Documentation on Azure Spatial Anchors](https://docs.microsoft.com/en-us/azure/spatial-anchors/)
 
+- [World Locking](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unity/spatial-anchors-in-unity?tabs=anchorstore)
+   - May need to go back to square 1.
+
 #### Contradictory Coding Instructions/Methods
 - [Coding Instructions on Creating Spatial Anchors in Unity](https://docs.microsoft.com/en-us/azure/spatial-anchors/how-tos/create-locate-anchors-unity)
    - Uses the CloudAnchorSession
 - [Microsoft Spatial Anchors using OpenXR sample](https://github.com/microsoft/OpenXR-Unity-MixedReality-Samples/blob/main/AzureSpatialAnchorsSample/Assets/Scripts/SpatialAnchorsSample.cs) [Current Coding Basis]
    - Need to confirm that this one works in Unity
    - Uses Spatial Anchor Manager
+   - AR Session and AR Session Origin are empty gameobjects in the scene
+      - AR Session Origin contains the Origin and Manager Script, and is the parent to an AR Camera
    - Uses MRTK and OpenXR
 - [Quickstart Sample for Spatial Anchors in Unity](https://github.com/Azure/azure-spatial-anchors-samples/blob/master/Unity/Assets/AzureSpatialAnchors.Examples/Scripts/AzureSpatialAnchorsBasicDemoScript.cs)
    - Can confirm that this one works in Unity
