@@ -35,10 +35,15 @@ Example Tear:
 
 ### Spatial Anchors
 - [Introductory Video to Azure Spatial Anchors](https://docs.microsoft.com/en-us/shows/mixed-reality/intro-to-azure-mixed-reality-services-azure-spatial-anchors)
-- [Coding Instructions on Creating Local Spatial Anchors](https://docs.microsoft.com/en-us/azure/spatial-anchors/how-tos/create-locate-anchors-unity)
 - [Azure Spatial Anchors API](https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.spatialanchors?view=spatialanchors-dotnet)
 - [Microsoft's Documentation on Azure Spatial Anchors](https://docs.microsoft.com/en-us/azure/spatial-anchors/)
+
+#### Contradictory Coding Instructions/Methods
+- [Coding Instructions on Creating Local Spatial Anchors](https://docs.microsoft.com/en-us/azure/spatial-anchors/how-tos/create-locate-anchors-unity)
 - [Microsoft Spatial Anchors using OpenXR sample](https://github.com/microsoft/OpenXR-Unity-MixedReality-Samples/blob/main/AzureSpatialAnchorsSample/Assets/Scripts/SpatialAnchorsSample.cs)
+   - Need to confirm that this one works in Unity
+- [Quickstart Sample for Spatial Anchors in Unity](https://github.com/Azure/azure-spatial-anchors-samples/blob/master/Unity/Assets/AzureSpatialAnchors.Examples/Scripts/AzureSpatialAnchorsBasicDemoScript.cs)
+   - Can confirm that this one works in Unity
 
 ### Phasing Objects In
 - [Youtube Tutorial](https://www.youtube.com/watch?v=taMp1g1pBeE)
