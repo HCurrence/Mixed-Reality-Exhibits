@@ -33,13 +33,14 @@ Example Tear:
 
 ## Research Docs
 
+### World Locking
+- [World Locking](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unity/spatial-anchors-in-unity?tabs=anchorstore)
+- [World Locking and Azure Spatial Anchors](https://docs.microsoft.com/en-us/mixed-reality/world-locking-tools/documentation/howtos/wlt_asa)
+
 ### Spatial Anchors
 - [Introductory Video to Azure Spatial Anchors](https://docs.microsoft.com/en-us/shows/mixed-reality/intro-to-azure-mixed-reality-services-azure-spatial-anchors)
 - [Azure Spatial Anchors API](https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.spatialanchors?view=spatialanchors-dotnet)
 - [Microsoft's Documentation on Azure Spatial Anchors](https://docs.microsoft.com/en-us/azure/spatial-anchors/)
-
-- [World Locking](https://docs.microsoft.com/en-us/windows/mixed-reality/develop/unity/spatial-anchors-in-unity?tabs=anchorstore)
-   - May need to go back to square 1.
 
 #### Contradictory Coding Instructions/Methods
 - [Coding Instructions on Creating Spatial Anchors in Unity](https://docs.microsoft.com/en-us/azure/spatial-anchors/how-tos/create-locate-anchors-unity)
