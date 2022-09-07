@@ -56,6 +56,9 @@ Example Tear:
    - Uses Spatial Anchor Manager
    - Does not use MRTK
 
+#### Notes:
+- [Fix for "Not configured properly" Spatial Anchor Manager error](https://github.com/Azure/azure-spatial-anchors-samples/issues/348)
+
 ### Phasing Objects In
 - [Youtube Tutorial](https://www.youtube.com/watch?v=taMp1g1pBeE)
 
