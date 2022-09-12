@@ -59,9 +59,7 @@ Example Tear:
 #### Working Method
 - Used ASA with MRTK and OpenXR using the sample as a coding basis.
 - This method is bugged initally with the SpatialAnchorManager script believing it was not set-up correctly. The fix for this can be found below.
-
-#### Notes:
-- [Fix for "Not configured properly" Spatial Anchor Manager error](https://github.com/Azure/azure-spatial-anchors-samples/issues/348)
+   - [Fix for "Not configured properly" Spatial Anchor Manager error](https://github.com/Azure/azure-spatial-anchors-samples/issues/348)
 
 ### Phasing Objects In
 - [Youtube Tutorial](https://www.youtube.com/watch?v=taMp1g1pBeE)
