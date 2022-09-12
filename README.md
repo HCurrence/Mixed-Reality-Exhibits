@@ -56,6 +56,10 @@ Example Tear:
    - Uses Spatial Anchor Manager
    - Does not use MRTK
 
+#### Working Method
+- Used ASA with MRTK and OpenXR using the sample as a coding basis.
+- This method is bugged initally with the SpatialAnchorManager script believing it was not set-up correctly. The fix for this can be found below.
+
 #### Notes:
 - [Fix for "Not configured properly" Spatial Anchor Manager error](https://github.com/Azure/azure-spatial-anchors-samples/issues/348)
 
