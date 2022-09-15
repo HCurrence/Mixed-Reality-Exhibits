@@ -39,7 +39,7 @@ Example Tear:
 
 ### Spatial Anchors
 - [Introductory Video to Azure Spatial Anchors](https://docs.microsoft.com/en-us/shows/mixed-reality/intro-to-azure-mixed-reality-services-azure-spatial-anchors)
-- [Azure Spatial Anchors API](https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.spatialanchors?view=spatialanchors-dotnet)
+- [Azure Spatial Anchors Unity SDK](https://docs.microsoft.com/en-us/dotnet/api/microsoft.azure.spatialanchors?view=spatialanchors-dotnet)
 - [Microsoft's Documentation on Azure Spatial Anchors](https://docs.microsoft.com/en-us/azure/spatial-anchors/)
 
 #### Contradictory Coding Instructions/Methods
