@@ -18,10 +18,12 @@ Goals:
 
 ## Use-Case Research
 
-- [AR Glass]()
-   - [Monument Avenue Tour]()
+- [ARtGlass](https://artglassgroup.com/)
+   - [Monument Avenue Tour](https://thevalentine.org/event/monument-avenue-origins-and-reverberations-augmented-reality-walking-tour-9/)
 - Published Research:
-   - (TBA)
+   - https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.184.2083&rep=rep1&type=pdf
+   - https://ieeexplore.ieee.org/abstract/document/9052281
+   - https://www.emerald.com/insight/content/doi/10.1108/LHTN-04-2018-0023/full/html#loginreload
 
 ## Design 
 
