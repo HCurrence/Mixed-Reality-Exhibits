@@ -70,6 +70,7 @@ Example Tear:
 - The SpatialAnchorManager script has a threading issue where the checks for if the ARSessionOrigin and ARSessionManager exist fail.
    - Could be a threading issue.
    - To fix, pull the ARSessionOrigin and the ARSessionManager again in the ValidConfiguration method in the SpatialAnchorManager script. (See code below.)
+   - [Original Fix](https://github.com/Azure/azure-spatial-anchors-samples/issues/348)
    
 ```CSharp
 protected async virtual Task<bool> IsValidateConfiguration()
