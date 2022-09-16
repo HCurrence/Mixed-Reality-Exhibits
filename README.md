@@ -18,24 +18,23 @@ Goals:
 
 ## Design 
 
-Edit Mode - Where the user can place historic artifacts and edit informational displays.
-
-Preview Mode - Where the user can view any changes they saved in Edit Mode.
-
-Live Mode - Where any users can view the current layout of the virtual exhibit.
+There are 3 primary modes to the application:
+- **Edit Mode**: Where the user can place historic artifacts and edit informational displays.
+- **Preview Mode**: Where the user can view any changes they saved in Edit Mode.
+- **Live Mode**: Where any users can view the current layout of the virtual exhibit.
 
 ### Virtual Plaques/Podiums Inspired by Horizon Zero Dawn's "Vantage Points"
 Example Vantage Point:
-- https://miro.medium.com/max/1400/0*PWEMRBmnBb-qn9N_. 
-- https://static.gosunoob.com/img/1/2017/02/Horizon-Zero-Dawn-Where-to-Find-Vantage-Points.jpg
+![Vantage Example 1](https://miro.medium.com/max/1400/0*PWEMRBmnBb-qn9N_.)
+![Vantage Example 2](https://static.gosunoob.com/img/1/2017/02/Horizon-Zero-Dawn-Where-to-Find-Vantage-Points.jpg)
 
 ### The Phasing-In of Objects Inspired by Bioshock Infinite's "Tears"
 Example Tear:
-- https://cdnb.artstation.com/p/assets/images/images/011/033/947/large/chx-king-tears-hangpointsetpreview.jpg?1527530378
-- https://cdna.artstation.com/p/assets/images/images/011/033/948/large/chx-king-tears-mgturret.jpg?1527530380
-- https://static.wikia.nocookie.net/bioshock/images/f/f5/BI_Shanty_Tear_Foods.png/revision/latest/scale-to-width-down/1000?cb=20151207112327
-- https://static.wikia.nocookie.net/bioshock/images/b/bd/BI_MusicMarch_Tear.png/revision/latest/scale-to-width-down/1000?cb=20151207121220
-- https://bioshock.fandom.com/wiki/Tear#In-Game_Events
+![Tear Example 1](https://cdnb.artstation.com/p/assets/images/images/011/033/947/large/chx-king-tears-hangpointsetpreview.jpg?1527530378)
+![Tear Example 2](https://cdna.artstation.com/p/assets/images/images/011/033/948/large/chx-king-tears-mgturret.jpg?1527530380)
+![Tear Example 3](https://static.wikia.nocookie.net/bioshock/images/f/f5/BI_Shanty_Tear_Foods.png/revision/latest/scale-to-width-down/1000?cb=20151207112327)
+![Tear Example 4](https://static.wikia.nocookie.net/bioshock/images/b/bd/BI_MusicMarch_Tear.png/revision/latest/scale-to-width-down/1000?cb=20151207121220)
+![Tear Example 5](https://bioshock.fandom.com/wiki/Tear#In-Game_Events)
 
 ## Milestones
 
