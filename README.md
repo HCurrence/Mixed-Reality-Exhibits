@@ -58,8 +58,30 @@ Example Tear:
 
 #### Working Method
 - Used ASA with MRTK and OpenXR using the sample as a coding basis.
-- This method is bugged initally with the SpatialAnchorManager script believing it was not set-up correctly. The fix for this can be found below.
-   - [Fix for "Not configured properly" Spatial Anchor Manager error](https://github.com/Azure/azure-spatial-anchors-samples/issues/348)
+- The SpatialAnchorManager script has a threading issue where the checks for if the ARSessionOrigin and ARSessionManager exist fail.
+   - Could be a threading issue.
+   - To fix, pull the ARSessionOrigin and the ARSessionManager again in the ValidConfiguration method in the SpatialAnchorManager script. (See code below.)
+   
+```CSharp
+// Just Before the Check Happens...
+arSessionOrigin = FindObjectOfType<ARSessionOrigin>(); //HAD TO ADD THIS TO GET IT TO PULL THE ORIGIN PROPERLY - HALEY
+arAnchorManager = FindObjectOfType<ARAnchorManager>(); //HAD TO ADD THIS TO GET IT TO PULL THE MANAGER PROPERLY - HALEY
+
+// All applications must have an enabled AR Foundation ARAnchorManager and ARSessionOrigin
+// in the scene. The ARSessionOrigin object should be added automatically when the
+// ARAnchorManager is added to the scene through the Unity inspector.
+if (arSessionOrigin == null || !arSessionOrigin.enabled)
+{
+    Debug.LogError("Need an enabled ARSessionOrigin in the scene");
+    return false;
+}
+
+if (arAnchorManager == null || !arAnchorManager.enabled)
+{
+    Debug.LogError("Need an enabled ARAnchorManager in the scene");
+    return false;
+}
+```
 
 ### Phasing Objects In
 - [Youtube Tutorial](https://www.youtube.com/watch?v=taMp1g1pBeE)
