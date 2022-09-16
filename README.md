@@ -1,6 +1,13 @@
 # Mixed-Reality-Exhibits
 
-## Goals
+## Table of Contents:
+1. [Project Goal](https://github.com/HCurrence/Mixed-Reality-Exhibits/blob/main/README.md#goals)
+2. [Use-Case Research](https://github.com/HCurrence/Mixed-Reality-Exhibits/blob/main/README.md#use-case-research)
+3. [Design](https://github.com/HCurrence/Mixed-Reality-Exhibits/blob/main/README.md#design)
+4. [Milestone Schedule](https://github.com/HCurrence/Mixed-Reality-Exhibits/blob/main/README.md#milestones)
+5. [Research and Development Notes](https://github.com/HCurrence/Mixed-Reality-Exhibits/blob/main/README.md#research-and-development)
+
+## Project Goal
 
 Create a MR application that allows users to place 3D holograms of statues or other exhibits at a location, add exhibit information, and display them to the public as an interactive 3D experience. 
 
