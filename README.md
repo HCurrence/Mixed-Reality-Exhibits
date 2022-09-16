@@ -25,6 +25,7 @@ There are 3 primary modes to the application:
 
 ### Virtual Plaques/Podiums Inspired by Horizon Zero Dawn's "Vantage Points"
 Example Vantage Point:
+![Unactivated Vantage](https://oyster.ignimgs.com/mediawiki/apis.ign.com/horizon-zero-dawn/e/e7/Vantage_01-3_ExplorerMuseum_03-A.jpg)
 ![Vantage Example 1](https://miro.medium.com/max/1400/0*PWEMRBmnBb-qn9N_.)
 ![Vantage Example 2](https://static.gosunoob.com/img/1/2017/02/Horizon-Zero-Dawn-Where-to-Find-Vantage-Points.jpg)
 
@@ -34,7 +35,10 @@ Example Tear:
 ![Tear Example 2](https://cdna.artstation.com/p/assets/images/images/011/033/948/large/chx-king-tears-mgturret.jpg?1527530380)
 ![Tear Example 3](https://static.wikia.nocookie.net/bioshock/images/f/f5/BI_Shanty_Tear_Foods.png/revision/latest/scale-to-width-down/1000?cb=20151207112327)
 ![Tear Example 4](https://static.wikia.nocookie.net/bioshock/images/b/bd/BI_MusicMarch_Tear.png/revision/latest/scale-to-width-down/1000?cb=20151207121220)
-![Tear Example 5](https://bioshock.fandom.com/wiki/Tear#In-Game_Events)
+[About Tears](https://bioshock.fandom.com/wiki/Tear#In-Game_Events)
+
+### Menu to Spawn Multiple Objects Insides by The Walking Dead's Inventory UX
+![Inventory Example](https://cdnb.artstation.com/p/media_assets/images/images/000/558/853/original/Backpack_UI.gif?1587428037)
 
 ## Milestones
 
