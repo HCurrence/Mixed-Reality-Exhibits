@@ -63,24 +63,34 @@ Example Tear:
    - To fix, pull the ARSessionOrigin and the ARSessionManager again in the ValidConfiguration method in the SpatialAnchorManager script. (See code below.)
    
 ```CSharp
-// Just Before the Check Happens...
-arSessionOrigin = FindObjectOfType<ARSessionOrigin>(); //HAD TO ADD THIS TO GET IT TO PULL THE ORIGIN PROPERLY - HALEY
-arAnchorManager = FindObjectOfType<ARAnchorManager>(); //HAD TO ADD THIS TO GET IT TO PULL THE MANAGER PROPERLY - HALEY
-
-// All applications must have an enabled AR Foundation ARAnchorManager and ARSessionOrigin
-// in the scene. The ARSessionOrigin object should be added automatically when the
-// ARAnchorManager is added to the scene through the Unity inspector.
-if (arSessionOrigin == null || !arSessionOrigin.enabled)
+protected async virtual Task<bool> IsValidateConfiguration()
 {
-    Debug.LogError("Need an enabled ARSessionOrigin in the scene");
-    return false;
+
+   /* Code */
+
+   // Just Before the Check Happens...
+   arSessionOrigin = FindObjectOfType<ARSessionOrigin>(); //HAD TO ADD THIS TO GET IT TO PULL THE ORIGIN PROPERLY - HALEY
+   arAnchorManager = FindObjectOfType<ARAnchorManager>(); //HAD TO ADD THIS TO GET IT TO PULL THE MANAGER PROPERLY - HALEY
+
+   // All applications must have an enabled AR Foundation ARAnchorManager and ARSessionOrigin
+   // in the scene. The ARSessionOrigin object should be added automatically when the
+   // ARAnchorManager is added to the scene through the Unity inspector.
+   if (arSessionOrigin == null || !arSessionOrigin.enabled)
+   {
+       Debug.LogError("Need an enabled ARSessionOrigin in the scene");
+       return false;
+   }
+
+   if (arAnchorManager == null || !arAnchorManager.enabled)
+   {
+       Debug.LogError("Need an enabled ARAnchorManager in the scene");
+       return false;
+   }
+
+   /* Code */
+
 }
 
-if (arAnchorManager == null || !arAnchorManager.enabled)
-{
-    Debug.LogError("Need an enabled ARAnchorManager in the scene");
-    return false;
-}
 ```
 
 ### Phasing Objects In
