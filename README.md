@@ -1,7 +1,7 @@
 # Mixed-Reality-Exhibits
 
 ## Table of Contents:
-1. [Project Goal](https://github.com/HCurrence/Mixed-Reality-Exhibits/blob/main/README.md#goals)
+1. [Project Goal](https://github.com/HCurrence/Mixed-Reality-Exhibits/blob/main/README.md#project-goal)
 2. [Use-Case Research](https://github.com/HCurrence/Mixed-Reality-Exhibits/blob/main/README.md#use-case-research)
 3. [Design](https://github.com/HCurrence/Mixed-Reality-Exhibits/blob/main/README.md#design)
 4. [Milestone Schedule](https://github.com/HCurrence/Mixed-Reality-Exhibits/blob/main/README.md#milestones)
