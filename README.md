@@ -19,7 +19,9 @@ Goals:
 ## Design 
 
 Edit Mode - Where the user can place historic artifacts and edit informational displays.
+
 Preview Mode - Where the user can view any changes they saved in Edit Mode.
+
 Live Mode - Where any users can view the current layout of the virtual exhibit.
 
 ### Virtual Plaques/Podiums Inspired by Horizon Zero Dawn's "Vantage Points"
@@ -46,7 +48,7 @@ Example Tear:
 | 5. Add the Capability for Certian Objects to be Snapped to the Ground in Edit Mode | Certian objects, like statues, will need to be and should be attached to the ground. Other objects may also benefit from an optional, On-And-Off button for this. (See [Solver](https://docs.microsoft.com/en-us/windows/mixed-reality/mrtk-unity/mrtk2/features/ux-building-blocks/solvers/solver?view=mrtkunity-2022-05).) | 11/15/2022 | TBD | 
 | 6. Virtual Informational Plaques and Podiums | Informational Plaques and Podiums should be paired with each object spawned into the scene. The plaques and podiums should be able to be manipulated about the scene as well. Information should be added to the plaque/podium in Edit Mode and viewed in Preview Mode. | 11/30/2022 | TBD |
 | 7. Aesthetics | In preview mode, objects and thier info plaques/podiums should be hidden from view and replaced with an activation marker. Once the marker is activated, the object should phase-in to the scene and the marker would transform into the info plaque/podium. Once the information is closed, the object should phase out of view and the info plaque/podium should transform back into an activation marker. (See Design Photos for reference.) | 12/15/2022 | TBD |
-| 8. Live Mode Functionality | Live Mode should have all the capabilities of Preview Mode, but Live Mode will also have multiplayer functionality. Multiple Hololens users should be able to view and interact with the objects in the scene at the same time. Any changed published in Edit Mode should be reflected in Live Mode. | 1/15/2022 | TBD |
+| 8. Live Mode Functionality | Live Mode should have all the capabilities of Preview Mode, but Live Mode will also have multiplayer functionality. Multiple Hololens users should be able to view and interact with the objects in the scene at the same time. Any changed published in Edit Mode should be reflected in Live Mode. | 1/15/2023 | TBD |
 
 ## Research and Development
 
