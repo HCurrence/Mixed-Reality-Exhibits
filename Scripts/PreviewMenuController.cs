@@ -7,8 +7,13 @@ using UnityEngine.SceneManagement;
 using Microsoft.Azure.SpatialAnchors;
 using Microsoft.Azure.SpatialAnchors.Unity;
 
+using UnityEngine.XR.ARFoundation;
+
 public class PreviewMenuController : MonoBehaviour
 {
+
+    public GameObject extObj;
+
     private GameObject instanceObj;
 
     private string anchorID;
@@ -78,11 +83,11 @@ public class PreviewMenuController : MonoBehaviour
 
                 Debug.LogError($"Attempting to Spawn Object - {"/Prefabs/" + currentCloudAnchor.AppProperties[@"model-type"]}...");
 
-                GameObject obj = (GameObject)Resources.Load("/Prefabs/" + currentCloudAnchor.AppProperties[@"model-type"]);
+                instanceObj = (GameObject)Resources.Load("/Prefabs/" + currentCloudAnchor.AppProperties[@"model-type"]);
 
-                obj.AddComponent<CloudNativeAnchor>().CloudToNative(currentCloudAnchor);
+                instanceObj.AddComponent<CloudNativeAnchor>().CloudToNative(currentCloudAnchor);
 
-                GameObject.Instantiate(obj);
+                GameObject.Instantiate(instanceObj);
             });
         }
     }
@@ -90,9 +95,12 @@ public class PreviewMenuController : MonoBehaviour
     public void backToEditor()
     {
 
-        if(anchorManager == null)
+        //Debug.LogError("HALEY NOTE: Anchor Manager =" + anchorManager);
+
+        while(anchorManager == null)
         {
-            throw new Exception("Somehow the manager is not here.");
+            //throw new Exception("Somehow the manager is not here.");
+            anchorManager = GetComponent<SpatialAnchorManager>();
         }
 
         //Stop the current session and go to the editor
@@ -112,11 +120,10 @@ public class PreviewMenuController : MonoBehaviour
 
     private async void cleanUpAnchors()
     {
-        GameObject obj = GameObject.Find(currentCloudAnchor.AppProperties[@"model-type"]);
-        if(obj != null)
+        if(instanceObj != null)
         {
             //TODO: If the object has an assocaited spatial anchor, remove the anchor.
-            CloudNativeAnchor anchor = obj.GetComponent<CloudNativeAnchor>();
+            CloudNativeAnchor anchor = instanceObj.GetComponent<CloudNativeAnchor>();
             
             if(anchor != null)
             {
