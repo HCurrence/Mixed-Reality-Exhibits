@@ -46,7 +46,7 @@ Example Tear:
 ![Tear Example 4](https://static.wikia.nocookie.net/bioshock/images/b/bd/BI_MusicMarch_Tear.png/revision/latest/scale-to-width-down/1000?cb=20151207121220)
 [About Tears](https://bioshock.fandom.com/wiki/Tear#In-Game_Events)
 
-### Menu to Spawn Multiple Objects Insides by The Walking Dead's Inventory UX
+### Menu to Spawn Multiple Objects by The Walking Dead's Inventory UX
 ![Inventory Example](https://cdnb.artstation.com/p/media_assets/images/images/000/558/853/original/Backpack_UI.gif?1587428037)
 
 ## Milestones
